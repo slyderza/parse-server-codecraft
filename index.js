@@ -34,7 +34,7 @@ var api = new ParseServer({
 	/* Set the mount path as it is in serverURL */
 	// publicServerURL: process.env.SERVER_URL || 'http://localhost:1337/parse',
 	/* This will appear in the subject and body of the emails that are sent */
-	// appName: process.env.APP_NAME || "CodeCraft", 
+	appName: process.env.APP_NAME || "CodeCraft", 
 
 	emailAdapter: {
 	 	module: 'parse-server-simple-mailgun-adapter',
