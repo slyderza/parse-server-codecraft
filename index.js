@@ -32,7 +32,7 @@ var api = new ParseServer({
 	/* The public URL of your app */
 	// This will appear in the link that is used to verify email addresses and reset passwords.
 	/* Set the mount path as it is in serverURL */
-	// publicServerURL: process.env.SERVER_URL || 'http://localhost:1337/parse',
+	publicServerURL: process.env.SERVER_URL || 'http://localhost:1337/parse',
 	/* This will appear in the subject and body of the emails that are sent */
 	appName: process.env.APP_NAME || "CodeCraft", 
 
